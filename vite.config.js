@@ -19,7 +19,6 @@ export default defineConfig({
             "/api": {
                 target: "https://ri-store-backend.onrender.com/",
                 changeOrigin: true,
-                rewrite: (path) => path.replace(/^\/api/, ""),
             },
         },
     },
