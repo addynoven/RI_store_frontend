@@ -17,7 +17,7 @@ export default defineConfig({
         port: 3000,
         proxy: {
             "/api": {
-                target: "https://ri-store-backend.onrender.com/",
+                target: "https://ri-store-backend.onrender.com",
                 changeOrigin: true,
             },
         },
