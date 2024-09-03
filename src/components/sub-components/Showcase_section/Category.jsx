@@ -17,7 +17,7 @@ const Category = () => {
 					<CategoryCard
 						key={category}
 						category={category}
-						ImgSrc={"src/assets/img/category/" + category + ".jpg"}
+						ImgSrc={"assets/img/category/" + category + ".jpg"}
 					/>
 				))}
 			</div>
