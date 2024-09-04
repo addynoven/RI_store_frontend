@@ -4,7 +4,7 @@ export const productApiSlice = ApiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getProducts: builder.query({
             query: () => ({
-                url: "https://ri-store-backend.onrender.com/api/products",
+                url: `${PRODUCTS_URL}`,
                 method: "GET",
             }),
             keepUnusedDataFor: 60,

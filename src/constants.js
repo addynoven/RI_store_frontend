@@ -1,4 +1,4 @@
-export const BASEURL = "";
+export const BASEURL = "https://ri-store-backend.onrender.com";
 
 export const PRODUCTS_URL = `/api/products`;
 
